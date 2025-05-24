@@ -30,6 +30,9 @@ body
   margin-top: 40px;
   margin-bottom: 30px;
   font-size: 40px;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .nav-bar
 {
@@ -55,38 +58,41 @@ body
   position:relative;
   border-radius: 50px;
   width: 100%;
-  height:500px;
+  height:80vh;
   z-index:10;  
 
 }
 .middle-container .middle-title:first-child
 {
   position: absolute;
-  top:150px;
+  top:95px;
   left:200px;
   letter-spacing: 4px;
+  font-size: 23px;
+  font-weight: 500;
 }
 .middle-container .middle-title:nth-child(2)
 {
   position: absolute;
   color: black;
-  top:170px;
+  top:125px;
   left:200px;
   font-size: 40px;
-  letter-spacing: 10px;
 }
 .middle-container div
 {
   position: absolute;
   color: black;
-  top:260px;
+  top:210px;
   left:200px;
+  font-size: 17px;
 }
 /* 사진 박스 */
 .img-container{
   display:flex;
   gap:12px;
-  margin-top:70px;
+  margin-top:55px;
+  margin-bottom: 80px;
 }
 
 .img-container img{
