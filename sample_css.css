@@ -91,6 +91,12 @@ a
   position: relative;
   width:50px;
   height:auto;
+  transition: transform 0.1s ease;  /* 부드러운 변화 */
+}
+
+.logo:hover
+{
+  transform: scale(1.10);  
 }
 
 .logo-label
@@ -100,4 +106,5 @@ a
   font-size:12px;        /* 필요하면 크기 조절 */
   color:#333;
 }
+
 
