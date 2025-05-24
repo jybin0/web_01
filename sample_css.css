@@ -4,7 +4,26 @@ body
   background-color: #E6E8DB;
   
 }
-h1
+
+
+.container {
+  position: relative;
+  height: 80vh;
+  background-image: url('janaa.webp');
+  background-size: cover;
+  background-position: center;
+  clip-path: ellipse(100% 100% at 60% 0%);
+  z-index: 2;
+}
+
+.nav-container {
+  position: absolute;
+  text-align: center;
+  left: 28%;
+  color: white;
+}
+
+.main-title
 {
   text-align: center;
   letter-spacing: 20px;
@@ -31,51 +50,18 @@ h1
   transform: scale(1.10);  
 }
 
-.hero {
-  position: relative;
-  height: 80vh;
-  background-image: url('janaa.webp');
-  background-size: cover;
-  background-position: center;
-  clip-path: ellipse(100% 100% at 60% 0%);
-  
-   z-index: 2;
+.middle-container
+{
+  position:relative;
+  background-color: rgba(139, 153, 184, 0.09);
+  width:100%;
+  height:600px;
+  margin-top:60px;
 }
-
-.text {
+.middle-title
+{
   position: absolute;
-  left: 28%;
-  z-index: 2;
-  color: white;
-  text-align: center;
-}
-
-
-.wrapper
-{
-  margin-top: 100px;
-  margin-right:150px;
-  display: flex;
-  justify-content: right; /* <-- center로 변경! */
-  gap:20px;
-}
-
-.right-box
-{
-  margin-top: 160px;
-}
-.left-box
-{
-  display: flex;
-  flex-direction: column;
-}
-.left-box .middle-content:nth-child(2)
-{
-  margin-top: 20px;
-}
-.middle-content
-{
-  width:auto;
-  height:350px;
-  border-radius: 40px;
+  top:200px;
+  left:150px;
+  font-size: 40px;
 }
