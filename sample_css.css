@@ -2,7 +2,6 @@ body
 {
   margin:0px;
   background-color: #E6E8DB;
-  
 }
 
 
@@ -52,51 +51,28 @@ body
 {
   transform: scale(1.10);  
 }
+.sample
+{
+  margin:0 auto;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+.logo
+{
+  width:300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+
+
 
 .middle-container
 {
-  position:relative;
-  border-radius: 50px;
-  width: 100%;
-  height:80vh;
-  z-index:10;  
-
-}
-.middle-container .middle-title:first-child
-{
-  position: absolute;
-  top:95px;
-  left:200px;
-  letter-spacing: 4px;
-  font-size: 23px;
-  font-weight: 500;
-}
-.middle-container .middle-title:nth-child(2)
-{
-  position: absolute;
-  color: black;
-  top:125px;
-  left:200px;
-  font-size: 40px;
-}
-.middle-container div
-{
-  position: absolute;
-  color: black;
-  top:210px;
-  left:200px;
-  font-size: 17px;
-}
-/* 사진 박스 */
-.img-container{
-  display:flex;
-  gap:12px;
-  margin-top:55px;
-  margin-bottom: 80px;
-}
-
-.img-container img{
-  width:520px;         /* 필요에 따라 조절 */
-  height:350px;
-  border-radius:8px;
+  background-color: rgb(73, 137, 177,0.5);
+  color:white;
+  margin-top:50px;
+  width:100%;
+  height:500px;
 }
