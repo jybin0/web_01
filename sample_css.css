@@ -1,0 +1,81 @@
+body
+{
+  margin:0px;
+  background-color: #E6E8DB;
+  
+}
+h1
+{
+  text-align: center;
+  letter-spacing: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.nav-bar
+{
+  margin: auto;
+  /*border: 1px solid black;*/
+  width:900px;
+  justify-content: space-between;
+  display: flex;
+}
+.nav-content
+{
+  font-size: 14px;
+  transition: transform 0.1s ease;  /* 부드러운 변화 */
+}
+
+.nav-content:hover
+{
+  transform: scale(1.10);  
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  background-image: url('janaa.webp');
+  background-size: cover;
+  background-position: center;
+  clip-path: ellipse(100% 100% at 60% 0%);
+  
+   z-index: 2;
+}
+
+.text {
+  position: absolute;
+  left: 28%;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+
+.wrapper
+{
+  margin-top: 100px;
+  margin-right:150px;
+  display: flex;
+  justify-content: right; /* <-- center로 변경! */
+  gap:20px;
+}
+
+.right-box
+{
+  margin-top: 160px;
+}
+.left-box
+{
+  display: flex;
+  flex-direction: column;
+}
+.left-box .middle-content:nth-child(2)
+{
+  margin-top: 20px;
+}
+.middle-content
+{
+  width:auto;
+  height:350px;
+  border-radius: 40px;
+}
