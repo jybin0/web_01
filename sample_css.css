@@ -41,6 +41,11 @@ body
   justify-content: space-between;
   display: flex;
 }
+a
+{
+  text-decoration: none;
+  color: white;
+}
 .nav-content
 {
   font-size: 14px;
@@ -62,7 +67,7 @@ body
 /* 부모 Flex → 가로로 나란히 배치 */
 .logo-container{
   display:flex;
-  gap:120px;              /* 아이콘 사이 간격 */
+  gap:170px;              /* 아이콘 사이 간격 */
   align-items:center;    /* 높이 맞춤 */
   margin:auto;           /* 가운데 정렬용 */
   margin-left:770px;
@@ -92,7 +97,7 @@ body
 {
   position: relative;
   margin-top:6px;        /* 이미지와 라벨 사이 여백 */
-  font-size:18px;        /* 필요하면 크기 조절 */
+  font-size:12px;        /* 필요하면 크기 조절 */
   color:#333;
 }
 
