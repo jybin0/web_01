@@ -53,15 +53,44 @@ body
 .middle-container
 {
   position:relative;
-  background-color: rgba(139, 153, 184, 0.09);
-  width:100%;
-  height:600px;
-  margin-top:60px;
+  border-radius: 50px;
+  width: 100%;
+  height:500px;
+  z-index:10;  
+
 }
-.middle-title
+.middle-container .middle-title:first-child
 {
   position: absolute;
-  top:200px;
-  left:150px;
+  top:150px;
+  left:200px;
+  letter-spacing: 4px;
+}
+.middle-container .middle-title:nth-child(2)
+{
+  position: absolute;
+  color: black;
+  top:170px;
+  left:200px;
   font-size: 40px;
+  letter-spacing: 10px;
+}
+.middle-container div
+{
+  position: absolute;
+  color: black;
+  top:260px;
+  left:200px;
+}
+/* 사진 박스 */
+.img-container{
+  display:flex;
+  gap:12px;
+  margin-top:70px;
+}
+
+.img-container img{
+  width:520px;         /* 필요에 따라 조절 */
+  height:350px;
+  border-radius:8px;
 }
