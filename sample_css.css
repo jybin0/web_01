@@ -4,14 +4,14 @@ body
   background-color: #E6E8DB;
 }
 
-
+/*헤더*/
 .container {
   position: relative;
   height: 80vh;
   background-image: url('janaa.webp');
   background-size: cover;
   background-position: center;
-  clip-path: ellipse(100% 100% at 60% 0%);
+  clip-path: ellipse(120% 100% at 50% 0%);
   z-index: 2;
 }
 
@@ -29,7 +29,7 @@ body
   margin-top: 40px;
   margin-bottom: 30px;
   font-size: 40px;
-    font-family: "Permanent Marker", cursive;
+  font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -51,19 +51,21 @@ body
 {
   transform: scale(1.10);  
 }
+
+
+/*로고*/
 .sample{
   margin:0 auto;
-  margin-top:100px;
+  margin-top:55px;
   display:flex;
 }
-
 /* 부모 Flex → 가로로 나란히 배치 */
 .logo-container{
   display:flex;
-  gap:200px;              /* 아이콘 사이 간격 */
+  gap:120px;              /* 아이콘 사이 간격 */
   align-items:center;    /* 높이 맞춤 */
   margin:auto;           /* 가운데 정렬용 */
-  margin-left:700px;
+  margin-left:770px;
 }
 
 /* 각 아이콘-라벨 묶음 */
@@ -75,14 +77,13 @@ body
 
 .jannabi_logo{
   position: absolute;
-  left:280px;
-  width:300px;
-  height:300px;
+  left:430px;
+  width:200px;
+  height:200px;
 }
 
 .logo{
   position: relative;
-  left:50px;
   width:50px;
   height:auto;
 }
@@ -90,9 +91,8 @@ body
 .logo-label
 {
   position: relative;
-  left:50px;
   margin-top:6px;        /* 이미지와 라벨 사이 여백 */
   font-size:18px;        /* 필요하면 크기 조절 */
   color:#333;
-  
 }
+
