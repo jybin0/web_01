@@ -146,3 +146,42 @@ a
   font-size: 20px;
   font-family: "Song Myung", serif;
 }
+
+.img-container {
+  text-align: left;  /* 왼쪽 정렬 */
+  padding: 20px;     /* 필요 시 여백 추가 */
+}
+
+.overlay {
+  display: flex;           /* 가로 정렬 */
+  align-items: center;     /* 세로 중앙 정렬 */
+  justify-content: flex-start;
+  gap: 40px;               /* 이미지와 텍스트 사이 간격 */
+  padding: 40px;
+}
+
+.img-container {
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.profile-img {
+  width: 300px;       /* 원하는 이미지 크기 */
+  height: auto;
+  border-radius: 20px;
+}
+
+.profile {
+  max-width: 600px;
+}
+
+.profile-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-content {
+  font-size: 18px;
+  line-height: 1.6;
+}
